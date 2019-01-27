@@ -55,6 +55,16 @@ $ ruby make_cv -i data.yaml -s academic.txt -o academic.pdf
 ![academic1.png](sample/academic1.png)
 ![academic2.jpg](sample/academic2.png)
 
+A4 1 ページに収まる軽量スタイル `style.light.txt` もあります。
+
+```
+$ ruby make_cv -i data.yaml -s style.light.txt -o output.light.pdf
+```
+
+[PDFファイル](sample/output.light.pdf)
+
+![output.light.png](sample/output.light.png)
+
 ## データの用意の仕方
 
 データはYAML形式で用意します。
@@ -327,5 +337,6 @@ string,110mm,245mm,$date,font_size=9
 
 ## 履歴
 
+- 2019年1月28日 A4 1 ページのスタイル `style.light.txt` 追加
 - 2018年7月30日 ymboxマクロ及びmiscboxマクロを追加
 - 2018年6月6日 リリース
