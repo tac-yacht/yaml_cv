@@ -1,0 +1,91 @@
+# header
+string,110mm,245mm,$date,font_size=9
+string,5mm,247mm,履　歴　書,font_size=14,font_face=gothic
+
+# photo
+box,145mm,204mm,30mm,40mm,line_style=dashed
+string,148mm,240mm,写真を貼る位置,font_size=9
+string,147mm,233mm,1. 縦36〜40 mm,font_size=8
+string,150mm,230mm,横24〜30 mm,font_size=8
+string,147mm,227mm,2. 本人単身胸から上,font_size=8
+string,147mm,224mm,3. 裏面にのりづけ,font_size=8
+string,147mm,221mm,4. 裏面に氏名記入,font_size=8
+photo,145mm,244mm,30mm,40mm
+
+# identity
+lines,6,0mm,240mm,139mm,0mm,0mm,-41mm,38mm,0mm,0mm,-27mm,-177mm,0mm,line_width=2.0,close=true
+
+## name
+string,2mm,238mm,ふりがな,font_size=9
+string,30mm,238mm,$name_kana,font_size=9
+line,0,233mm,139mm,0,line_style=dashed
+string,2mm,231mm,氏　　名,font_size=9
+string,30mm,231mm,$name,font_size=14
+
+## separate_horizontal
+line,0,218mm,139mm,0mm
+
+## birth_day
+line,15mm,218mm,0,-13mm
+string,1.5mm,217mm,生年月日,font_size=9
+string,30mm,213mm,$birth_day,font_size=12
+
+## gender
+line,110mm,218mm,0mm,-13mm
+string,121mm,214mm,$gender,font_size=12
+
+## separate_horizontal
+line,0,205mm,139mm,0mm
+
+## cell_phone
+string,1.5mm,203.5mm,携帯電話番号,font_size=9
+line,21mm,205mm,0,-6mm,line_style=dashed
+string,25mm,203.5mm,$cell_phone,font_size=9
+
+## separate_vertical
+line,56mm,205mm,0mm,-6mm
+
+## email
+string,57mm,204mm,E-MAIL,font_size=9
+line,69mm,205mm,0mm,-6mm,line_style=dashed
+string,75mm,204mm,$email,font_size=9
+
+## separate_horizontal
+line,0,199mm,139mm,0mm
+
+## address
+string,2mm,197mm,ふりがな,font_size=9
+line,0,192mm,139mm,0,line_style=dashed
+string,20mm,197mm,$address_kana,font_size=9
+string,2mm,191mm,現住所 〒,font_size=9
+string,15mm,191mm,$address_zip,font_size=9
+string,15mm,185mm,$address,font_size=12
+
+## tel, fax
+line,139mm,199mm,0mm,-27mm
+string,141mm,198mm,電話,font_size=9
+string,143mm,192mm,$tel,font_size=9
+line,139mm,186mm,38mm,0mm,line_style=dashed
+string,141mm,185mm,FAX,font_size=9
+string,143mm,179mm,$fax,font_size=9
+
+# education, experience
+box,0mm,65mm,177mm,98mm,line_width=2
+multi_lines,0mm,72mm,177mm,0,13,0,7mm
+line,19mm,163mm,0,-98mm
+line,31mm,163mm,0,-98mm
+string,8mm,161mm,年,font_size=9
+string,24mm,161mm,月,font_size=9
+string,77mm,161mm,学歴・職歴（各項目ごとにまとめて書く）,font_size=9
+education_experience,155mm,3mm,24mm,35mm,7mm,95mm,155mm,font_size=10
+
+# licenses 
+box,0,3mm,177mm,49mm,line_width=2
+line,19mm,3mm,0,49mm
+line,31mm,3mm,0,49mm
+multi_lines,0mm,10mm,177mm,0,6,0,7mm
+string,8mm,50mm,年,font_size=9
+string,24mm,50mm,月,font_size=9
+string,90mm,50mm,免許・資格,font_size=9
+history,43mm,3mm,24mm,35mm,-7mm,$licences,font_size=12
+
