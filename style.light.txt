@@ -71,7 +71,7 @@ string,143mm,179mm,$fax,font_size=9
 
 # education, experience
 box,0mm,100mm,177mm,63mm,line_width=2
-multi_lines,0mm,121mm,177mm,0,5,0,7mm
+multi_lines,0mm,128mm,177mm,0,8,0,7mm
 line,19mm,163mm,0,-63mm
 line,31mm,163mm,0,-63mm
 string,8mm,161mm,年,font_size=9
@@ -80,9 +80,9 @@ string,77mm,161mm,学歴・職歴（各項目ごとにまとめて書く）,font
 education_experience,155mm,3mm,24mm,35mm,7mm,95mm,155mm,font_size=10
 
 # licenses 
-box,0,3mm,177mm,63mm,line_width=2
-line,19mm,3mm,0,63mm
-line,31mm,3mm,0,63mm
+box,0,3mm,177mm,84mm,line_width=2
+line,19mm,3mm,0,84mm
+line,31mm,3mm,0,84mm
 multi_lines,0mm,24mm,177mm,0,8,0,7mm
 string,8mm,71mm,年,font_size=9
 string,24mm,71mm,月,font_size=9
