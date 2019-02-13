@@ -70,7 +70,7 @@ string,141mm,185mm,FAX,font_size=9
 string,143mm,179mm,$fax,font_size=9
 
 # education, experience
-box,0mm,65mm,177mm,63mm,line_width=2
+box,0mm,100mm,177mm,63mm,line_width=2
 multi_lines,0mm,72mm,177mm,0,5,0,7mm
 line,19mm,163mm,0,-63mm
 line,31mm,163mm,0,-63mm
