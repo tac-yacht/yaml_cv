@@ -80,9 +80,9 @@ string,77mm,161mm,学歴・職歴（各項目ごとにまとめて書く）,font
 education_experience,155mm,3mm,24mm,35mm,7mm,95mm,155mm,font_size=10
 
 # licenses 
-box,0,3mm,177mm,105mm,line_width=2
-line,19mm,3mm,0,105mm
-line,31mm,3mm,0,105mm
+box,0,3mm,177mm,70mm,line_width=2
+line,19mm,3mm,0,70mm
+line,31mm,3mm,0,70mm
 multi_lines,0mm,24mm,177mm,0,10,0,7mm
 string,8mm,92mm,年,font_size=9
 string,24mm,92mm,月,font_size=9
